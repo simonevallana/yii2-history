@@ -1,0 +1,25 @@
+{
+    "name": "erkebulan69/yii2-history",
+    "description": "History extension for active records in yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Yerkebulan",
+            "email": "erkebulan69@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "boolean\\history\\": ""
+        }
+    },
+    "extra": {
+        "bootstrap": "boolean\\history\\Bootstrap"
+    }
+}
