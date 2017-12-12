@@ -24,7 +24,7 @@ class HistoryEntity extends \yii\db\ActiveRecord
 
     public static function tableName()
     {
-        return 'history';
+        return '{{%history}}';
     }
 
     public static function getEventsList()
