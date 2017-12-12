@@ -6,7 +6,7 @@ class m170316_064909_create_table_history extends Migration
 {
     public function up()
     {
-        $this->createTable('history', [
+        $this->createTable('{{%history}}', [
             'id' => $this->primaryKey(),
             'initiator' => $this->integer(), // user_id
             'ip' => $this->string(32),
@@ -21,6 +21,6 @@ class m170316_064909_create_table_history extends Migration
 
     public function down()
     {
-        $this->dropTable('history');
+        $this->dropTable('{{%history}}');
     }
 }
